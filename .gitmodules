@@ -1,0 +1,3 @@
+[submodule "Libs/sol2"]
+	path = Libs/sol2
+	url = https://github.com/ThePhD/sol2
