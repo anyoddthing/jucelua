@@ -35,6 +35,7 @@
 		39A1D4320A6CDBDB92E7E6CE = {isa = PBXBuildFile; fileRef = 102A67460D769CB2A36A7A0B; };
 		0CC6745E523AFDB6C7A93BF4 = {isa = PBXBuildFile; fileRef = C388AAC3C6344DC5C7FC7265; };
 		AAE03FE7CC8D9473C202755C = {isa = PBXBuildFile; fileRef = D1D925295BBD97CF573AD9F1; };
+		BC71AA5475F7B5DC62CB89B4 = {isa = PBXBuildFile; fileRef = 8CCB3738A6E666F84F9C77B5; };
 		0807EB1BA8D546EBBC7FD5FF = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "include_juce_events.mm"; path = "../../JuceLibraryCode/include_juce_events.mm"; sourceTree = "SOURCE_ROOT"; };
 		0C4988DE1ACA03B294A7167D = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		0DC57D2B1E63FDF1CCA80515 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -55,6 +56,7 @@
 		7D8D930F3F307EF8C98883B7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = ../../JuceLibraryCode/AppConfig.h; sourceTree = "SOURCE_ROOT"; };
 		8011441068E22E6F0B383D6E = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "include_juce_gui_basics.mm"; path = "../../JuceLibraryCode/include_juce_gui_basics.mm"; sourceTree = "SOURCE_ROOT"; };
 		84356DD852704B7B506998B3 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8CCB3738A6E666F84F9C77B5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "include_JuceLua.cpp"; path = "../../JuceLibraryCode/include_JuceLua.cpp"; sourceTree = "SOURCE_ROOT"; };
 		8CE04A87E74FF28E2D1856AD = {isa = PBXFileReference; lastKnownFileType = file; name = "juce_cryptography"; path = "/Users/daniel/Source/myprojects/cpp/JUCE/modules/juce_cryptography"; sourceTree = "<absolute>"; };
 		8F7A72B337CC25ED993D5211 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		92B73DEC5BF3A7E9271F88A3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = "SOURCE_ROOT"; };
@@ -74,6 +76,7 @@
 		CCADDB77D8F078BC498712C2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "include_juce_audio_basics.mm"; path = "../../JuceLibraryCode/include_juce_audio_basics.mm"; sourceTree = "SOURCE_ROOT"; };
 		CF80A4E12B471ED041EEAE06 = {isa = PBXFileReference; lastKnownFileType = file; name = "juce_audio_devices"; path = "/Users/daniel/Source/myprojects/cpp/JUCE/modules/juce_audio_devices"; sourceTree = "<absolute>"; };
 		D1D925295BBD97CF573AD9F1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "include_juce_video.mm"; path = "../../JuceLibraryCode/include_juce_video.mm"; sourceTree = "SOURCE_ROOT"; };
+		D71CE7D9AA9DD4F611F3896A = {isa = PBXFileReference; lastKnownFileType = file; name = JuceLua; path = ../../Source/JuceLua; sourceTree = "SOURCE_ROOT"; };
 		D8C8102C63226B17ED0163D6 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DD23B5B5E90868FBDCCD64CC = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		EA6BC4F73DBA0839B1CBD13D = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JuceLua; sourceTree = "BUILT_PRODUCTS_DIR"; };
@@ -84,6 +87,7 @@
 		373FB82558C7E50C50EE4136 = {isa = PBXGroup; children = (
 					EB248477CDDB7B453413BB99, ); name = JuceLua; sourceTree = "<group>"; };
 		74E16EEF3F8D03829784C563 = {isa = PBXGroup; children = (
+					D71CE7D9AA9DD4F611F3896A,
 					AB1F5501AD1C0579CD136DDE,
 					CF80A4E12B471ED041EEAE06,
 					C932C890D00A5C416DCA9B18,
@@ -112,6 +116,7 @@
 					102A67460D769CB2A36A7A0B,
 					C388AAC3C6344DC5C7FC7265,
 					D1D925295BBD97CF573AD9F1,
+					8CCB3738A6E666F84F9C77B5,
 					C3F966F2344E96C9101C5933, ); name = "JUCE Library Code"; sourceTree = "<group>"; };
 		F394ED72E53CCB036E856E87 = {isa = PBXGroup; children = (
 					9B3D3BC483FB0CA1850B9D00, ); name = Resources; sourceTree = "<group>"; };
@@ -161,7 +166,7 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0", );
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "/Users/daniel/Source/myprojects/cpp/JUCE/modules", "$(inherited)");
+				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../Source", "../../Libs/lua", "../../Libs/sol2/single/sol", "/Users/daniel/Source/myprojects/cpp/JUCE/modules", "$(inherited)");
 				INSTALL_PATH = "/usr/bin";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
@@ -192,7 +197,7 @@
 					"JucePlugin_Build_Standalone=0", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "/Users/daniel/Source/myprojects/cpp/JUCE/modules", "$(inherited)");
+				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../Source", "../../Libs/lua", "../../Libs/sol2/single/sol", "/Users/daniel/Source/myprojects/cpp/JUCE/modules", "$(inherited)");
 				INSTALL_PATH = "/usr/bin";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -297,7 +302,8 @@
 					1068972F9C89B621638A7975,
 					39A1D4320A6CDBDB92E7E6CE,
 					0CC6745E523AFDB6C7A93BF4,
-					AAE03FE7CC8D9473C202755C, ); runOnlyForDeploymentPostprocessing = 0; };
+					AAE03FE7CC8D9473C202755C,
+					BC71AA5475F7B5DC62CB89B4, ); runOnlyForDeploymentPostprocessing = 0; };
 		5441DD356C67F17F404699D7 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
 					246FCEC8F725FC6BB78186A3,
 					4427062615719C567A875F71,
