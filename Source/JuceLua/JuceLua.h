@@ -20,7 +20,7 @@
   description:      Wrapper for sol2 / lua libs for easy drop-in integration in JUCE projects
   website:          http://www.anyoddthing.com
   license:          BSD
-  searchpaths:      ../../Libs/lua ../../Libs/sol2/single/sol
+  searchpaths:      ../../Libs/lua ../../Libs/sol2/single/include/sol
 
  END_JUCE_MODULE_DECLARATION
 

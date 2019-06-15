@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Bvz2cC" name="JuceLua" projectType="consoleapp" jucerVersion="5.3.2">
+<JUCERPROJECT id="Bvz2cC" name="JuceLua" projectType="consoleapp" jucerVersion="5.4.3"
+              cppLanguageStandard="17">
   <MAINGROUP id="HobIMG" name="JuceLua">
     <GROUP id="{2D23D2C1-1C7E-B728-CEC2-BEC440272174}" name="Source">
       <FILE id="zdSDC9" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
