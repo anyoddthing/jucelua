@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "851BB1BC-AD32-41BA-A263-D4174A6EF832"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8A4CC57-DF46-420F-9B8A-E1CAED18F401"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "sol_lua_check(, L, index, handler, tracking)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F8A4CC57-DF46-420F-9B8A-E1CAED18F401 - 729a0b91f14155a0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::sol_lua_check&lt;int (*)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(sol::types&lt;juce::String&gt;, lua_State*, int, int (*&amp;&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "F8A4CC57-DF46-420F-9B8A-E1CAED18F401 - 8d86c8630286f1ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::sol_lua_check&lt;int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(sol::types&lt;juce::String&gt;, lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F79CA17-F847-4B3A-8AC0-50815D2721C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "sol_lua_push(, L, str)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE135675-30CD-47DD-BCB0-C27024DC2A1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "sol_lua_get(, L, index, tracking)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A73987F-97BB-4D34-B809-4EC48D124B79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "sol_lua_check(, L, index, handler, tracking)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8A73987F-97BB-4D34-B809-4EC48D124B79 - 729a0b91f14155a0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::sol_lua_check&lt;int (*)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(sol::types&lt;juce::String&gt;, lua_State*, int, int (*&amp;&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "8A73987F-97BB-4D34-B809-4EC48D124B79 - 8d86c8630286f1ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::sol_lua_check&lt;int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(sol::types&lt;juce::String&gt;, lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10199"
+            endingLineNumber = "10199"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 1039730754faead8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_table_core&lt;false, sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 47044128f844d461"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt;, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - b8c94962a7b1bbd0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::user&lt;sol::u_detail::usertype_storage&lt;juce::String&gt; &gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 400cc3debbe01231"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::detail::as_value_tag&lt;sol::lightuserdata_value&gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 28374424aff86a71"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::detail::as_value_tag&lt;juce::String&gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 1d3a9d893de51463"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 7c70714668a280e6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_metatable&lt;sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - f7d66014f73c3f7a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;char const*, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 55cf0df4af7e0e52"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 7f1738c26da2424a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, sol::argument_handler&lt;sol::types&lt;void, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;&gt; &gt;&amp;&gt;(lua_State*, int, sol::argument_handler&lt;sol::types&lt;void, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;&gt; &gt;&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - c9d14bfc0d4fb4de"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;char const*, sol::argument_handler&lt;sol::types&lt;void, char const*&gt; &gt;&amp;&gt;(lua_State*, int, sol::argument_handler&lt;sol::types&lt;void, char const*&gt; &gt;&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - 65170313a2bbde44"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_protected_function&lt;sol::stack_reference, true, sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E5C9C55F-CE97-484A-B80D-FA0AEB219E92 - ba0f2caaa9d56795"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_function&lt;sol::basic_reference&lt;false&gt;, false&gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10202"
+            endingLineNumber = "10202"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 1039730754faead8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_table_core&lt;false, sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 47044128f844d461"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt;, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - b8c94962a7b1bbd0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::user&lt;sol::u_detail::usertype_storage&lt;juce::String&gt; &gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 400cc3debbe01231"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::detail::as_value_tag&lt;sol::lightuserdata_value&gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 28374424aff86a71"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::detail::as_value_tag&lt;juce::String&gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 1d3a9d893de51463"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt;, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (*&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 7c70714668a280e6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_metatable&lt;sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - f7d66014f73c3f7a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;char const*, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 55cf0df4af7e0e52"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept&gt;(lua_State*, int, int (&amp;)(lua_State*, int, sol::type, sol::type, char const*) noexcept, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 7f1738c26da2424a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, sol::argument_handler&lt;sol::types&lt;void, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;&gt; &gt;&amp;&gt;(lua_State*, int, sol::argument_handler&lt;sol::types&lt;void, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;&gt; &gt;&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - c9d14bfc0d4fb4de"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;char const*, sol::argument_handler&lt;sol::types&lt;void, char const*&gt; &gt;&amp;&gt;(lua_State*, int, sol::argument_handler&lt;sol::types&lt;void, char const*&gt; &gt;&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - 65170313a2bbde44"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_protected_function&lt;sol::stack_reference, true, sol::basic_reference&lt;false&gt; &gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "23E21E75-5062-4B17-BF2D-517BAC7D9A3E - ba0f2caaa9d56795"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool sol::stack::unqualified_check&lt;sol::basic_function&lt;sol::basic_reference&lt;false&gt;, false&gt;, sol::constructor_handler&amp;&gt;(lua_State*, int, sol::constructor_handler&amp;, sol::stack::record&amp;)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10202"
+                  endingLineNumber = "10202"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DC483B1-C51E-4FFC-A178-3AD20B010CCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/StandardTest.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "MoveableType(other)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "set(L)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - 84f45c75df1b4d75"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::usertype_container&lt;juce::Array&lt;int, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - 18694942a9c052ca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::usertype_container&lt;juce::Array&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - aa1e547162442d59"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::usertype_container&lt;juce::Array&lt;MoveableType&lt;int&gt;, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "226">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

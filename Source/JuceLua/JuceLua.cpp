@@ -45,3 +45,9 @@
 #include "../../Libs/lua/lvm.c"
 #include "../../Libs/lua/lzio.c"
 
+namespace aot { namespace lua {
+
+#include "JuceLuaJuceCore.cpp"
+
+} }
+
