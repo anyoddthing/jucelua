@@ -562,14 +562,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0DC483B1-C51E-4FFC-A178-3AD20B010CCB"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Source/StandardTest.hpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "MoveableType(other)"
             landmarkType = "7">
          </BreakpointContent>
@@ -577,64 +577,525 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC"
+            uuid = "CDF07958-73BB-43C3-A772-42C0A56E4AD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/MemoryTests.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "~Bookkeeper()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77E7670E-3B88-48B6-AEE1-5944560D09B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/MemoryTests.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "Bookkeeper()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C58485C9-D312-43FC-B0AF-D4A789DF2BAB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "set(L)"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "ipairs(L)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77258237-3A0E-4C89-BED1-E9D4EBB6EE22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20396"
+            endingLineNumber = "20396"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4839D4C2-A8F0-40C1-AB25-4AD5677994A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20241"
+            endingLineNumber = "20241"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2CBD675-629B-4B05-AA51-56D846B052F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20537"
+            endingLineNumber = "20537"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4F06400-EE4B-4E0E-A154-D9BD698F9EF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20541"
+            endingLineNumber = "20541"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC4A55BC-F7D6-4775-A30B-82F755CD7FE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20388"
+            endingLineNumber = "20388"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08F0FED4-C56E-408E-9247-7933C5A341AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20690"
+            endingLineNumber = "20690"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76C7212E-9997-4779-AFA3-29B4AA043994"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20686"
+            endingLineNumber = "20686"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - 84f45c75df1b4d75"
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - 5ea82b4ad05f222c"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "sol::usertype_container&lt;juce::Array&lt;int, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  symbolName = "sol::container_detail::u_c_launch&lt;sol::as_container_t&lt;juce::String&gt; &gt;::pairs_call(lua_State*)"
                   moduleName = "JuceLua"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "226">
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - 18694942a9c052ca"
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - 1222ec7cd3e78487"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "sol::usertype_container&lt;juce::Array&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  symbolName = "sol::container_detail::u_c_launch&lt;juce::Array&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, juce::DummyCriticalSection, 0&gt; &gt;::pairs_call(lua_State*)"
                   moduleName = "JuceLua"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "226">
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  uuid = "13334EF7-14C7-4B75-BD67-68787BFDFDBC - aa1e547162442d59"
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - 6a2b72a9c51fbdd1"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "sol::usertype_container&lt;juce::Array&lt;MoveableType&lt;int&gt;, juce::DummyCriticalSection, 0&gt; &gt;::set(lua_State*)"
+                  symbolName = "sol::container_detail::u_c_launch&lt;sol::as_container_t&lt;(anonymous namespace)::Bookkeeper&gt; &gt;::pairs_call(lua_State*)"
                   moduleName = "JuceLua"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Source/JuceLua/JuceLuaJuceCore.hpp"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "226">
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - 73ca535d6f0de4a9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::container_detail::u_c_launch&lt;sol::as_container_t&lt;sol::call_construction&gt; &gt;::pairs_call(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - 526c82cba08e9bc1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::container_detail::u_c_launch&lt;sol::as_container_t&lt;____C_A_T_C_H____T_E_S_T____0()::$_0&gt; &gt;::pairs_call(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "76C7212E-9997-4779-AFA3-29B4AA043994 - a06b6351530e7ec0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sol::container_detail::u_c_launch&lt;sol::as_container_t&lt;____C_A_T_C_H____T_E_S_T____0()::$_1&gt; &gt;::pairs_call(lua_State*)"
+                  moduleName = "JuceLua"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Speedy/Source/myprojects/cpp/jucelua/Libs/sol2/single/include/sol/sol.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20686"
+                  endingLineNumber = "20686"
+                  offsetFromSymbolStart = "12">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9DE8BD9-7E3B-46AA-B3BF-ABB17A792D9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Libs/sol2/single/include/sol/sol.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20236"
+            endingLineNumber = "20236"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9D51690-118F-4CB1-9288-03917C1BECA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "set(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DB2CE48-1B7D-4723-905A-476063D7A508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "index_set(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6AC3352-241F-48DE-AE11-C76669FD11F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "at(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70ADC218-78A4-4E27-AA6D-E6002A44B196"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "get(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58FC96BC-424B-4B7B-8110-097DFA1BA390"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "index_get(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CADCC65-424D-48DF-8468-6EB65D1CD5D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "find(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DC69CC9-20E4-4294-8A00-1BE351C2C10F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "erase(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "511A9FBA-F960-4AFD-92D4-F66C1CF25243"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "insert(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2271FD37-2F31-44AE-AD7A-0129C60DB6E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "add(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D08A201-471F-4944-B580-DF8D772E9B6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "size(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D92D8B96-FDE6-4531-9BFA-C77B74D9F6A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "clear(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36C7996F-D143-4D03-80F1-FD07B77A268F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "begin(, self)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D446F6CA-44C8-4C2B-9957-030C86AE43B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "end(, self)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31FBFEDC-C70C-411C-8A01-E81E91221569"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "next(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EF934BF-DA48-4258-81C6-017202DA26D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "pairs(L)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA1A2D3C-79A6-49F9-8AFE-AEC2F775A080"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Source/JuceLua/JuceLuaJuceCore.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "index_adjustment()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

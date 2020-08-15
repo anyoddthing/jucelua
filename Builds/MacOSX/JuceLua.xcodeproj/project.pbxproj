@@ -73,6 +73,10 @@
 			isa = PBXBuildFile;
 			fileRef = 92B73DEC5BF3A7E9271F88A3;
 		};
+		656A587064CFF20BC3FF9193 = {
+			isa = PBXBuildFile;
+			fileRef = A28B806D556461FA5AFDD42C;
+		};
 		49475881BF8D247724694A9D = {
 			isa = PBXBuildFile;
 			fileRef = 57AD2598083D4F18BFD95B41;
@@ -390,6 +394,13 @@
 			path = RecentFilesMenuTemplate.nib;
 			sourceTree = "SOURCE_ROOT";
 		};
+		A28B806D556461FA5AFDD42C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = MemoryTests.cpp;
+			path = ../../Source/MemoryTests.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		A8EBD5BE37B69EE1C7B2D73E = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -521,6 +532,7 @@
 			children = (
 				0C3851F3465F21DF597454CA,
 				92B73DEC5BF3A7E9271F88A3,
+				A28B806D556461FA5AFDD42C,
 				7263AC6FD6A51A83CE469CEE,
 				57AD2598083D4F18BFD95B41,
 			);
@@ -857,6 +869,7 @@
 			files = (
 				6F7E8617B7B8E3B8CD86A8AF,
 				3B9A6BC0E2F82A22FEFE89F8,
+				656A587064CFF20BC3FF9193,
 				49475881BF8D247724694A9D,
 				7EA052578626A24B06F22A58,
 				C09940C33DCD7D934BF8922B,

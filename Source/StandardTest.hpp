@@ -3,6 +3,9 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include <catch2/catch.hpp>
 
+#define DEBUG_MOVEABLETYPE 0
+
+
 template <typename T = int>
 struct MoveableType
 {
@@ -13,21 +16,25 @@ struct MoveableType
     MoveableType(T v = {})
     {
         value = v;
-        
+
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType ctor: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
+#endif
     }
     
     ~MoveableType() noexcept
     {
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType dtor: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
+#endif
     }
     
     MoveableType(const MoveableType& other)
@@ -36,11 +43,13 @@ struct MoveableType
         copies += other.copies;
         moves += other.moves;
 
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType copy ctor: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
+#endif
     }
     
     MoveableType(MoveableType&& other) noexcept
@@ -48,12 +57,14 @@ struct MoveableType
         moves += other.moves + 1;
         copies += other.copies;
         value = other.value;
-        
+
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType move ctor: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
+#endif
     }
     
     MoveableType& operator=(const MoveableType& other)
@@ -61,13 +72,14 @@ struct MoveableType
         value = other.value;
         moves += other.moves;
         copies += other.copies + 1;
-        
+
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType copy assign: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
-
+#endif
         return *this;
     }
     
@@ -76,13 +88,14 @@ struct MoveableType
         moves += other.moves + 1;
         copies += other.copies;
         std::swap(value, other.value);
-        
+
+#if DEBUG_MOVEABLETYPE
         std::cout << "MoveableType move assign: " << typeid(T).name()
             << " value: " << value
             << " moves: " << moves
             << " copies: " << copies
             << "\n";
-
+#endif
         return *this;
     }
 };
