@@ -1,5 +1,7 @@
 #pragma once
 
+#define CATCH_CONFIG_ENABLE_BENCHMARKING 1
+
 #include "../JuceLibraryCode/JuceHeader.h"
 #include <catch2/catch.hpp>
 
