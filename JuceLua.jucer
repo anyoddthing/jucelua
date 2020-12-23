@@ -7,6 +7,7 @@
       <FILE id="xmxrvZ" name="ArrayTests.cpp" compile="1" resource="0" file="Source/ArrayTests.cpp"/>
       <FILE id="zdSDC9" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="xkWr2k" name="MemoryTests.cpp" compile="1" resource="0" file="Source/MemoryTests.cpp"/>
+      <FILE id="RHDizp" name="MidiTests.cpp" compile="1" resource="0" file="Source/MidiTests.cpp"/>
       <FILE id="BxJ2Wr" name="StandardTest.hpp" compile="0" resource="0"
             file="Source/StandardTest.hpp"/>
       <FILE id="B8QmlE" name="StringTests.cpp" compile="1" resource="0" file="Source/StringTests.cpp"/>

@@ -71,7 +71,7 @@ TEST_CASE("Midi")
         lua.safe_script(R"(
             numNoteOn = 0
             function handleMessage(m)
-                if isNoteOnNative(m) then
+                if m:isNoteOn() then
                     numNoteOn = numNoteOn + 1;
                 end
             end
